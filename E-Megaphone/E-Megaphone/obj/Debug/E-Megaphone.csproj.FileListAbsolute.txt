@@ -1,0 +1,7 @@
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\bin\Debug\E-Megaphone.exe.config
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\bin\Debug\E-Megaphone.exe
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\bin\Debug\E-Megaphone.pdb
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\obj\Debug\E-Megaphone.csprojAssemblyReference.cache
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\obj\Debug\E-Megaphone.csproj.CoreCompileInputs.cache
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\obj\Debug\E-Megaphone.exe
+C:\Code\E-Megaphone\E-Megaphone\E-Megaphone\obj\Debug\E-Megaphone.pdb
