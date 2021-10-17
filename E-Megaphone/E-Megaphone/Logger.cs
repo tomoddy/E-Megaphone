@@ -24,7 +24,7 @@ namespace E_Megaphone
         /// </summary>
         public Logger()
         {
-            Path = $"{Config.LogOutput}/EMegaphoneBackup-{DateTime.UtcNow:yyyy-MM-dd-HH-mm-ss}.log";
+            Path = $"{Config.LogOutput}/EMegaphoneBackup-{DateTime.UtcNow:yyyy-MM-dd}.log";
             Messages = new List<string>
             {
                 "---------------------------------------------",
