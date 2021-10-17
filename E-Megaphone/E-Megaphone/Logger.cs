@@ -10,6 +10,11 @@ namespace E_Megaphone
     public class Logger
     {
         /// <summary>
+        /// Log file path
+        /// </summary>
+        private string Path { get; set; }
+
+        /// <summary>
         /// List of messages
         /// </summary>
         private List<string> Messages { get; set; }
@@ -19,6 +24,7 @@ namespace E_Megaphone
         /// </summary>
         public Logger()
         {
+            Path = $"{Config.LogOutput}/EMegaphoneBackup-{DateTime.UtcNow:yyyy-MM-dd-HH-mm-ss}.log";
             Messages = new List<string>
             {
                 "---------------------------------------------",
@@ -41,9 +47,9 @@ namespace E_Megaphone
         public void Save()
         {
             if (File.Exists(Config.LogOutput))
-                File.AppendAllLines(Config.LogOutput, Messages);
+                File.AppendAllLines(Path, Messages);
             else
-                File.WriteAllLines(Config.LogOutput, Messages);
+                File.WriteAllLines(Path, Messages);
         }
     }
 }

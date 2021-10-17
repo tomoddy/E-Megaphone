@@ -17,7 +17,11 @@ namespace E_Megaphone
         /// n + 2 - Recipient n email address
         /// n + 3 - Recipient n display name
         /// </param>
-        /// <returns>Status code (0 - success, -1 = failure, -2 = missing arguments)</returns>
+        /// <returns>
+        /// 0 - Success
+        /// -1 - Failure
+        /// -2 - Missing arguments
+        /// </returns>
         static int Main(string[] args)
         {
             // Create variables
@@ -46,7 +50,7 @@ namespace E_Megaphone
 
                     // Send email
                     Mailer mailer = new Mailer();
-                    mailer.Send(logger, "Test Subject", "Test Body", recipients);
+                    mailer.Send(logger, subject, body, recipients);
                 }
                 else
                 {

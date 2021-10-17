@@ -3,7 +3,7 @@
 namespace E_Megaphone
 {
     /// <summary>
-    /// Email client configuration values
+    /// Project configuration values
     /// </summary>
     public static class Config
     {
