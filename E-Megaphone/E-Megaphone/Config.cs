@@ -8,6 +8,14 @@ namespace E_Megaphone
     public static class Config
     {
         /// <summary>
+        /// Log file output
+        /// </summary>
+        public static string LogOutput
+        {
+            get { return ConfigurationManager.AppSettings.Get("LogOutput"); }
+        }
+
+        /// <summary>
         /// Name of sender
         /// </summary>
         public static string Sender
